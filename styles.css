@@ -11,3 +11,10 @@ body{
   place-items: center;
 }
 
+.wavy{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
