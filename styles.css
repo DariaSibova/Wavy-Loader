@@ -18,3 +18,16 @@ body{
   border-radius: 50%;
   overflow: hidden;
 }
+.wavy span{
+  position: absolute;
+  top: cals(12px * var(--i));
+  left: cals(12px * var(--i));
+  right: cals(12px * var(--i));
+  bottom: cals(12px * var(--i));
+  border: 10px solid #2f2f2f;
+border-top: 10px solid greenyellow;
+border-radius: 50%;
+filter: hue-rotate(calc(90deg * var(--i)));
+animation: wavy 1s alternate infinite;
+animation-delay: calc(0.1s * var(--i));
+}
